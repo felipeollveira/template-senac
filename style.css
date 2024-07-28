@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+i{
+    background-color: rgba(128, 128, 128, 0.158);
+    margin: 2px;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+i a{
+    color: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+}
+
+.container{
+    padding: 32px;
+}
+
+
+.carousel-item div{
+position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.txt{  
+    color: rgb(255, 94, 0);
+    font-size: 50pt;
+}
+
+.carousel-item p{
+    color: white;
+}
+
+.carousel-item img{
+    width: 20%;
+    background-size: cover;
+    border-bottom: 20px solid blue;
+    
+}
+
+.carousel-item {
+    border-bottom: 2px solid rgb(245, 245, 245);
+    width: 100%;
+    height: 490px;
+    overflow: hidden;
+}
+
+.unidades {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url('https://www.senac.br/images/bg_unidades_mobile.jpg');
+    background-repeat:unset;
+    background-size:80%;
+    background-position:50% 30%;
+}
+
+
+
+
+.unidades h2{
+    margin-top: 20px;
+    color: rgb(0, 47, 100);
+    font-weight: 600;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    left: 100;
+    border-bottom: 2px solid rgb(248, 141, 1);
+}
+
+.senac{
+    background: rgb(26,51,175);
+    background: radial-gradient(circle, rgba(26,51,175,1) 0%, rgba(0,16,119,1) 100%);
+    padding: 50px;
+    color: white;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.senac section{
+    margin-top: 10px;
+    width: 80%;
+    font-size: 10pt;
+    text-align: center;
+}
+.senac div{
+    border-bottom: 1px solid white;
+    width: 50%;
+    text-align: center;
+}
+
+
+.senac button{
+    border: none;
+    font-size: 18pt;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
